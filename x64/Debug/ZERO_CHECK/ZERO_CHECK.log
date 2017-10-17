@@ -1,0 +1,12 @@
+﻿Build started 10/13/2017 1:23:40 PM.
+     1>Project "C:\Users\peter\Desktop\WandEffectBuild\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/peter/Desktop/WandEffectBuild/TandS/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/peter/Desktop/WandEffectBuild/TandS/Testing/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\peter\Desktop\WandEffectBuild\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

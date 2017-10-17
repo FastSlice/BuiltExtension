@@ -1,0 +1,206 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_abe75.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/13/2017 1:21:54 PM.
+Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_abe75.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_abe75.dir\Debug\".
+  Creating directory "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_abe75.dir\Debug\cmTC_abe75.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_abe75.dir\Debug\cmTC_abe75.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\D\Support\qt-4.8.7-64-vs2013-deb\include" /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_abe75.dir\Debug\\" /Fd"cmTC_abe75.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\D\Support\qt-4.8.7-64-vs2013-deb\include" /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_abe75.dir\Debug\\" /Fd"cmTC_abe75.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_abe75.vcxproj]
+Done Building Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_abe75.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_abe75.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_X11' : undeclared identifier [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_abe75.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.75
+
+File C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a219e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/13/2017 1:21:56 PM.
+Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a219e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a219e.dir\Debug\".
+  Creating directory "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a219e.dir\Debug\cmTC_a219e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a219e.dir\Debug\cmTC_a219e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\D\Support\qt-4.8.7-64-vs2013-deb\include" /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a219e.dir\Debug\\" /Fd"cmTC_a219e.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\D\Support\qt-4.8.7-64-vs2013-deb\include" /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a219e.dir\Debug\\" /Fd"cmTC_a219e.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a219e.vcxproj]
+Done Building Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a219e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a219e.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_QWS' : undeclared identifier [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a219e.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.48
+
+File C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a1e81.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/13/2017 1:21:57 PM.
+Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a1e81.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a1e81.dir\Debug\".
+  Creating directory "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a1e81.dir\Debug\cmTC_a1e81.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a1e81.dir\Debug\cmTC_a1e81.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\D\Support\qt-4.8.7-64-vs2013-deb\include" /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a1e81.dir\Debug\\" /Fd"cmTC_a1e81.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\D\Support\qt-4.8.7-64-vs2013-deb\include" /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a1e81.dir\Debug\\" /Fd"cmTC_a1e81.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
+  
+  CheckSymbolExists.cxx
+C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a1e81.vcxproj]
+Done Building Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a1e81.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a1e81.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: 'Q_WS_MAC' : undeclared identifier [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_a1e81.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.56
+
+File C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CXX compiler accepts the flag -features=no%anachronisms passed with the following output:
+Change Dir: C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8fcd4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/13/2017 1:21:59 PM.
+Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_8fcd4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8fcd4.dir\Debug\".
+  Creating directory "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8fcd4.dir\Debug\cmTC_8fcd4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8fcd4.dir\Debug\cmTC_8fcd4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8fcd4.dir\Debug\\" /Fd"cmTC_8fcd4.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue  /bigobj -features=no%%anachronisms C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W1 /WX- /Od /Ob0 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8fcd4.dir\Debug\\" /Fd"cmTC_8fcd4.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue  /bigobj -features=no%%anachronisms C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\src.cxx
+  
+cl : Command line warning D9002: ignoring unknown option '-features=no%%anachronisms' [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_8fcd4.vcxproj]
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\Debug\cmTC_8fcd4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp/Debug/cmTC_8fcd4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/peter/Desktop/WandEffectBuild/CMakeFiles/CMakeTmp/Debug/cmTC_8fcd4.lib" /MACHINE:X64  /machine:x64 cmTC_8fcd4.dir\Debug\src.obj
+  cmTC_8fcd4.vcxproj -> C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\Debug\cmTC_8fcd4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8fcd4.dir\Debug\cmTC_8fcd4.tlog\unsuccessfulbuild".
+  Touching "cmTC_8fcd4.dir\Debug\cmTC_8fcd4.tlog\cmTC_8fcd4.lastbuildstate".
+Done Building Project "C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_8fcd4.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_8fcd4.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-features=no%%anachronisms' [C:\Users\peter\Desktop\WandEffectBuild\CMakeFiles\CMakeTmp\cmTC_8fcd4.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+Source file was:
+int main() { return 0;}
+
