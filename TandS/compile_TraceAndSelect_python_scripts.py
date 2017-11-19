@@ -72,6 +72,6 @@ def ctk_compile_file(fullname, ddir=None, force=0, rx=None, quiet=0):
 # Based on paraview/VTK/Wrapping/Python/compile_all_vtk.py.in
 
 
-ctk_compile_file('C:/Users/peter/Desktop/WandEffectBuild/lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py', force=1)
-file = open('C:/Users/peter/Desktop/WandEffectBuild/TandS/python_compile_TraceAndSelect_complete', 'w')
+ctk_compile_file('/home/nathan/Documents/WandEffect-build/lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py', force=1)
+file = open('/home/nathan/Documents/WandEffect-build/TandS/python_compile_TraceAndSelect_complete', 'w')
 file.write('Done')

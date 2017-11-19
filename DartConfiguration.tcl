@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/peter/Desktop/WandEffect
-BuildDirectory: C:/Users/peter/Desktop/WandEffectBuild
+SourceDirectory: /home/nathan/Documents/WandEffect
+BuildDirectory: /home/nathan/Documents/WandEffect-build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: attempt
+Site: neuromancer
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-MSBuild
+BuildName: Linux-c++
 
 # Submission information
 IsCDash: 
@@ -27,14 +27,14 @@ DropSitePassword:
 DropSiteMode: 
 DropMethod: http
 TriggerSite: 
-ScpCommand: SCPCOMMAND-NOTFOUND
+ScpCommand: /usr/bin/scp
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/peter/Desktop/WandEffect"
-MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/bin/cmake" "/home/nathan/Documents/WandEffect"
+MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -46,13 +46,12 @@ CVSCommand: CVSCOMMAND-NOTFOUND
 CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: C:/Program Files/SlikSvn/bin/svn.exe
+SVNCommand: /usr/bin/svn
 SVNOptions: 
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: GITCOMMAND-NOTFOUND
-GITInitSubmodules: 
+GITCommand: /usr/bin/git
 GITUpdateOptions: 
 GITUpdateCustom: 
 
@@ -64,13 +63,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: GITCOMMAND-NOTFOUND
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio 12.0/VC/bin/x86_amd64/cl.exe
-CompilerVersion: 18.0.40629.0
+Compiler: /usr/bin/c++
+CompilerVersion: 5.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -78,12 +77,12 @@ ValgrindCommand:
 ValgrindCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
+MemoryCheckCommand: /usr/bin/valgrind
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: COVERAGE_COMMAND-NOTFOUND
+CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
 
 # Cluster commands
@@ -101,7 +100,7 @@ TimeOut: 1500
 # so would cause the system load to exceed this value.
 TestLoad: 
 
-UseLaunchers: 0
+UseLaunchers: 
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
 # you have to update cmCTestSubmitCommand.cxx

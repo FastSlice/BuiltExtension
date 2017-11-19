@@ -1,7 +1,7 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/peter/Desktop/WandEffect/TandS
-# Build directory: C:/Users/peter/Desktop/WandEffectBuild/TandS
+# Source directory: /home/nathan/Documents/WandEffect/TandS
+# Build directory: /home/nathan/Documents/WandEffect-build/TandS
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs("Testing")
+subdirs(Testing)
