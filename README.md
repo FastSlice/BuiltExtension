@@ -8,4 +8,7 @@ To prepare your machine for testing, do the following:
 2. Download the "Demo DICOM.zip" file provided by the FastSlice team, found [here](https://drive.google.com/a/umich.edu/file/d/0B0dHApcloVBkVElBMDU0NDk3NGc/view?usp=sharing).
 3. Clone this repository: `git clone https://github.com/FastSlice/Extension.git`.
 
-To test the extension, follow the instructions in [this YouTube video](https://youtu.be/qJFSeH6n0QE).
+To test the extension, follow the instructions for:
+* [Bone and nerve selection](https://www.youtube.com/watch?v=qJFSeH6n0QE).
+* [Multi-slice support](https://www.youtube.com/watch?v=DYjxMnqFd-Y).
+* [Full-limb support](https://www.youtube.com/watch?v=RRTbvi0riAI).
