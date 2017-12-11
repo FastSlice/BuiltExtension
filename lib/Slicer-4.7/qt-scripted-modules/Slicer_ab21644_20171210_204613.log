@@ -1,0 +1,32 @@
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Session start time .......: 2017-12-10 20:46:13
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Slicer version ...........: 4.7.0-2017-10-11 (revision ab21644) linux-amd64 - not installed
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Operating system .........: Linux / 4.10.0-38-generic / #42~16.04.1-Ubuntu SMP Tue Oct 10 16:32:20 UTC 2017 - 64-bit
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Memory ...................: 7450 MB physical, 7651 MB virtual
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - CPU ......................: GenuineIntel Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 1 cores, 4 logical processors
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Developer mode enabled ...: no
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Prefer executable CLI ....: yes
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Additional module paths ..: /home/nathan/Documents/Extension/lib/Slicer-4.7/qt-scripted-modules
+[DEBUG][Python] 10.12.2017 20:46:15 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/SubjectHierarchyPlugins/AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: Annotations
+[DEBUG][Python] 10.12.2017 20:46:16 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/SubjectHierarchyPlugins/AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 10.12.2017 20:46:16 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/SubjectHierarchyPlugins/AbstractScriptedSubjectHierarchyPlugin.py:36) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 10.12.2017 20:46:13 [] (unknown:0) - Number of registered modules: 140
+[DEBUG][Qt] 10.12.2017 20:46:14 [] (unknown:0) - Number of instantiated modules: 140
+[DEBUG][Qt] 10.12.2017 20:46:16 [] (unknown:0) - Number of loaded modules: 140
+[DEBUG][Qt] 10.12.2017 20:46:16 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][Stream] 10.12.2017 20:46:16 [] (unknown:0) - Loading Slicer RC file [/home/nathan/.slicerrc.py]
+[DEBUG][Qt] 10.12.2017 20:46:18 [] (unknown:0) - Switch to module:  "DICOM"
+[DEBUG][Python] 10.12.2017 20:46:21 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/MultiVolumeImporterPlugin.py:392) - MultiVolumeImportPlugin::examine
+[DEBUG][Python] 10.12.2017 20:46:21 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/MultiVolumeImporterPlugin.py:432) - DICOMMultiVolumePlugin found 2 multivolumes!
+[DEBUG][Python] 10.12.2017 20:46:22 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/MultiVolumeImporterPlugin.py:105) - MultiVolumeImportPlugin:examineMultiseries
+[DEBUG][Python] 10.12.2017 20:46:22 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/MultiVolumeImporterPlugin.py:110) - DICOMMultiVolumePlugin found 1 multivolumes!
+[WARNING][Python] 10.12.2017 20:46:22 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/DICOMLib/DICOMWidgets.py:885) - Warning in DICOM plugin Scalar Volume when examining loadable 4: AngioRunOff  2.0  B30f: There is no pixel data attribute for the DICOM objects, but they might be readable as secondary capture images.
+[CRITICAL][Stream] 10.12.2017 20:46:22 [] (unknown:0) - Warning in DICOM plugin Scalar Volume when examining loadable 4: AngioRunOff  2.0  B30f: There is no pixel data attribute for the DICOM objects, but they might be readable as secondary capture images.
+[INFO][Python] 10.12.2017 20:46:23 [Python] (/home/nathan/Documents/Slicer-SuperBuild-Debug/Slicer-build/lib/Slicer-4.7/qt-scripted-modules/DICOMScalarVolumePlugin.py:375) - Loading with imageIOName: GDCM
+[INFO][Stream] 10.12.2017 20:46:23 [] (unknown:0) - Loading with imageIOName: GDCM
+[DEBUG][Qt] 10.12.2017 20:46:38 [] (unknown:0) - Switch to module:  "Editor"
+[CRITICAL][FD] 10.12.2017 20:46:45 [] (unknown:0) - opera: /home/nathan/Documents/Slicer-SuperBuild-Debug/OpenSSL/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+[CRITICAL][FD] 10.12.2017 20:46:45 [] (unknown:0) - opera: /home/nathan/Documents/Slicer-SuperBuild-Debug/OpenSSL/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+[CRITICAL][FD] 10.12.2017 20:46:45 [] (unknown:0) - opera: /home/nathan/Documents/Slicer-SuperBuild-Debug/OpenSSL/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+[CRITICAL][FD] 10.12.2017 20:46:45 [] (unknown:0) - opera: /home/nathan/Documents/Slicer-SuperBuild-Debug/OpenSSL/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+[CRITICAL][FD] 10.12.2017 20:46:45 [] (unknown:0) - opera: relocation error: /usr/lib/x86_64-linux-gnu/libcurl.so.4: symbol SSL_CTX_set_alpn_protos, version OPENSSL_1.0.2 not defined in file libssl.so.1.0.0 with link time reference
+[DEBUG][Qt] 10.12.2017 20:46:49 [] (unknown:0) - Switch to module:  ""
