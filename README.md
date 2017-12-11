@@ -13,3 +13,8 @@ To test the extension, follow the instructions in [this YouTube video](https://w
 For beta features, follow the instructions for:
 * [Multi-slice support](https://www.youtube.com/watch?v=DYjxMnqFd-Y).
 * [Full-limb support](https://www.youtube.com/watch?v=RRTbvi0riAI).
+
+For omega features, follow the instructions for:
+* [A new UI](https://youtu.be/TSEpF9ZIL9Q?t=9s).
+* [Outline preview](https://youtu.be/TSEpF9ZIL9Q?t=26s).
+* [Status bar](https://youtu.be/TSEpF9ZIL9Q?t=1m15s).
