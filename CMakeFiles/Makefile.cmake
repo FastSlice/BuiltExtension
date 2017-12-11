@@ -396,8 +396,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
-  "/home/nathan/Documents/WandEffect/AutoTrace/CMakeLists.txt"
-  "/home/nathan/Documents/WandEffect/AutoTrace/Testing/CMakeLists.txt"
   "/home/nathan/Documents/WandEffect/CMakeLists.txt"
   "/home/nathan/Documents/WandEffect/TandS/CMakeLists.txt"
   "/home/nathan/Documents/WandEffect/TandS/Testing/CMakeLists.txt"
@@ -460,8 +458,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "TandS/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TandS/Testing/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "AutoTrace/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "AutoTrace/Testing/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -499,7 +495,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "TandS/CMakeFiles/CopyTraceAndSelectPythonResourceFiles.dir/DependInfo.cmake"
   "TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/DependInfo.cmake"
   "TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/DependInfo.cmake"
-  "AutoTrace/CMakeFiles/CopyAutoTracePythonResourceFiles.dir/DependInfo.cmake"
-  "AutoTrace/CMakeFiles/CompileAutoTracePythonFiles.dir/DependInfo.cmake"
-  "AutoTrace/CMakeFiles/CopyAutoTracePythonScriptFiles.dir/DependInfo.cmake"
   )

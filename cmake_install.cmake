@@ -39,7 +39,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nathan/Documents/WandEffect-build/TandS/cmake_install.cmake")
-  include("/home/nathan/Documents/WandEffect-build/AutoTrace/cmake_install.cmake")
 
 endif()
 

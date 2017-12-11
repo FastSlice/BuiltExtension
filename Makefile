@@ -616,45 +616,6 @@ CompileTraceAndSelectPythonFiles/fast:
 	$(MAKE) -f TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/build.make TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/build
 .PHONY : CompileTraceAndSelectPythonFiles/fast
 
-#=============================================================================
-# Target rules for targets named CopyAutoTracePythonResourceFiles
-
-# Build rule for target.
-CopyAutoTracePythonResourceFiles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CopyAutoTracePythonResourceFiles
-.PHONY : CopyAutoTracePythonResourceFiles
-
-# fast build rule for target.
-CopyAutoTracePythonResourceFiles/fast:
-	$(MAKE) -f AutoTrace/CMakeFiles/CopyAutoTracePythonResourceFiles.dir/build.make AutoTrace/CMakeFiles/CopyAutoTracePythonResourceFiles.dir/build
-.PHONY : CopyAutoTracePythonResourceFiles/fast
-
-#=============================================================================
-# Target rules for targets named CompileAutoTracePythonFiles
-
-# Build rule for target.
-CompileAutoTracePythonFiles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CompileAutoTracePythonFiles
-.PHONY : CompileAutoTracePythonFiles
-
-# fast build rule for target.
-CompileAutoTracePythonFiles/fast:
-	$(MAKE) -f AutoTrace/CMakeFiles/CompileAutoTracePythonFiles.dir/build.make AutoTrace/CMakeFiles/CompileAutoTracePythonFiles.dir/build
-.PHONY : CompileAutoTracePythonFiles/fast
-
-#=============================================================================
-# Target rules for targets named CopyAutoTracePythonScriptFiles
-
-# Build rule for target.
-CopyAutoTracePythonScriptFiles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CopyAutoTracePythonScriptFiles
-.PHONY : CopyAutoTracePythonScriptFiles
-
-# fast build rule for target.
-CopyAutoTracePythonScriptFiles/fast:
-	$(MAKE) -f AutoTrace/CMakeFiles/CopyAutoTracePythonScriptFiles.dir/build.make AutoTrace/CMakeFiles/CopyAutoTracePythonScriptFiles.dir/build
-.PHONY : CopyAutoTracePythonScriptFiles/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -703,9 +664,6 @@ help:
 	@echo "... CopyTraceAndSelectPythonResourceFiles"
 	@echo "... CopyTraceAndSelectPythonScriptFiles"
 	@echo "... CompileTraceAndSelectPythonFiles"
-	@echo "... CopyAutoTracePythonResourceFiles"
-	@echo "... CompileAutoTracePythonFiles"
-	@echo "... CopyAutoTracePythonScriptFiles"
 .PHONY : help
 
 
