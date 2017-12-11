@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/Documents/WandEffect
+CMAKE_SOURCE_DIR = /home/nathan/Documents/FastSlice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/Documents/WandEffect-build
+CMAKE_BINARY_DIR = /home/nathan/Documents/FastSlice-build
 
 # Utility rule file for packageupload.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/nathan/Documents/WandEffect-build
 include CMakeFiles/packageupload.dir/progress.make
 
 CMakeFiles/packageupload:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/WandEffect-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Package and upload extension"
-	/usr/bin/cmake -E echo CPack\ log:\ /home/nathan/Documents/WandEffect-build/./packageupload_cpack_output.txt
-	/usr/bin/cmake -DPACKAGEUPLOAD:BOOL=1 -DCONFIG:STRING=. -DCPACK_OUTPUT_FILE:FILEPATH=/home/nathan/Documents/WandEffect-build/./packageupload_cpack_output.txt -DSCRIPT_ARGS_FILE:FILEPATH=/home/nathan/Documents/WandEffect-build/midas_api_upload_extension-command-args.cmake -P /home/nathan/Documents/Slicer/Extensions/CMake/SlicerExtensionPackageAndUploadTarget.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/FastSlice-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Package and upload extension"
+	/usr/bin/cmake -E echo CPack\ log:\ /home/nathan/Documents/FastSlice-build/./packageupload_cpack_output.txt
+	/usr/bin/cmake -DPACKAGEUPLOAD:BOOL=1 -DCONFIG:STRING=. -DCPACK_OUTPUT_FILE:FILEPATH=/home/nathan/Documents/FastSlice-build/./packageupload_cpack_output.txt -DSCRIPT_ARGS_FILE:FILEPATH=/home/nathan/Documents/FastSlice-build/midas_api_upload_extension-command-args.cmake -P /home/nathan/Documents/Slicer/Extensions/CMake/SlicerExtensionPackageAndUploadTarget.cmake
 
 packageupload: CMakeFiles/packageupload
 packageupload: CMakeFiles/packageupload.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/packageupload.dir/clean:
 .PHONY : CMakeFiles/packageupload.dir/clean
 
 CMakeFiles/packageupload.dir/depend:
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/WandEffect /home/nathan/Documents/WandEffect /home/nathan/Documents/WandEffect-build /home/nathan/Documents/WandEffect-build /home/nathan/Documents/WandEffect-build/CMakeFiles/packageupload.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/FastSlice /home/nathan/Documents/FastSlice /home/nathan/Documents/FastSlice-build /home/nathan/Documents/FastSlice-build /home/nathan/Documents/FastSlice-build/CMakeFiles/packageupload.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/packageupload.dir/depend
 

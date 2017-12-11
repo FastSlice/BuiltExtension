@@ -1,4 +1,4 @@
-# Install script for directory: /home/nathan/Documents/WandEffect/TandS/Testing
+# Install script for directory: /home/nathan/Documents/FastSlice/TandS/Testing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

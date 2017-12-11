@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/Documents/WandEffect
+CMAKE_SOURCE_DIR = /home/nathan/Documents/FastSlice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/Documents/WandEffect-build
+CMAKE_BINARY_DIR = /home/nathan/Documents/FastSlice-build
 
 # Utility rule file for ConfigureAdditionalLauncherSettings.
 
@@ -57,8 +57,8 @@ CMakeFiles/ConfigureAdditionalLauncherSettings: AdditionalLauncherSettings.ini
 
 
 AdditionalLauncherSettings.ini: /home/nathan/Documents/Slicer/Extensions/CMake/SlicerBlockAdditionalLauncherSettings.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/WandEffect-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Configuring: AdditionalLauncherSettings.ini"
-	/usr/bin/cmake -DCMAKE_CFG_INTDIR:STRING=. -P /home/nathan/Documents/WandEffect-build/AdditionalLauncherSettings-configure.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/FastSlice-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Configuring: AdditionalLauncherSettings.ini"
+	/usr/bin/cmake -DCMAKE_CFG_INTDIR:STRING=. -P /home/nathan/Documents/FastSlice-build/AdditionalLauncherSettings-configure.cmake
 
 ConfigureAdditionalLauncherSettings: CMakeFiles/ConfigureAdditionalLauncherSettings
 ConfigureAdditionalLauncherSettings: AdditionalLauncherSettings.ini
@@ -76,6 +76,6 @@ CMakeFiles/ConfigureAdditionalLauncherSettings.dir/clean:
 .PHONY : CMakeFiles/ConfigureAdditionalLauncherSettings.dir/clean
 
 CMakeFiles/ConfigureAdditionalLauncherSettings.dir/depend:
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/WandEffect /home/nathan/Documents/WandEffect /home/nathan/Documents/WandEffect-build /home/nathan/Documents/WandEffect-build /home/nathan/Documents/WandEffect-build/CMakeFiles/ConfigureAdditionalLauncherSettings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/FastSlice /home/nathan/Documents/FastSlice /home/nathan/Documents/FastSlice-build /home/nathan/Documents/FastSlice-build /home/nathan/Documents/FastSlice-build/CMakeFiles/ConfigureAdditionalLauncherSettings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ConfigureAdditionalLauncherSettings.dir/depend
 

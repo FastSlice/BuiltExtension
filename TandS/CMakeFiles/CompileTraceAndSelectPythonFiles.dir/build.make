@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/Documents/WandEffect
+CMAKE_SOURCE_DIR = /home/nathan/Documents/FastSlice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/Documents/WandEffect-build
+CMAKE_BINARY_DIR = /home/nathan/Documents/FastSlice-build
 
 # Utility rule file for CompileTraceAndSelectPythonFiles.
 
@@ -57,8 +57,8 @@ TandS/CMakeFiles/CompileTraceAndSelectPythonFiles: TandS/python_compile_TraceAnd
 
 
 TandS/python_compile_TraceAndSelect_complete: TandS/compile_TraceAndSelect_python_scripts.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/WandEffect-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling python scripts: TraceAndSelect"
-	cd /home/nathan/Documents/WandEffect-build/TandS && /usr/bin/cmake -P /home/nathan/Documents/WandEffect-build/TandS/compile_TraceAndSelect_python_scripts.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/FastSlice-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling python scripts: TraceAndSelect"
+	cd /home/nathan/Documents/FastSlice-build/TandS && /usr/bin/cmake -P /home/nathan/Documents/FastSlice-build/TandS/compile_TraceAndSelect_python_scripts.cmake
 
 CompileTraceAndSelectPythonFiles: TandS/CMakeFiles/CompileTraceAndSelectPythonFiles
 CompileTraceAndSelectPythonFiles: TandS/python_compile_TraceAndSelect_complete
@@ -72,10 +72,10 @@ TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/build: CompileTraceAndSele
 .PHONY : TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/build
 
 TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/clean:
-	cd /home/nathan/Documents/WandEffect-build/TandS && $(CMAKE_COMMAND) -P CMakeFiles/CompileTraceAndSelectPythonFiles.dir/cmake_clean.cmake
+	cd /home/nathan/Documents/FastSlice-build/TandS && $(CMAKE_COMMAND) -P CMakeFiles/CompileTraceAndSelectPythonFiles.dir/cmake_clean.cmake
 .PHONY : TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/clean
 
 TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/depend:
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/WandEffect /home/nathan/Documents/WandEffect/TandS /home/nathan/Documents/WandEffect-build /home/nathan/Documents/WandEffect-build/TandS /home/nathan/Documents/WandEffect-build/TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/FastSlice /home/nathan/Documents/FastSlice/TandS /home/nathan/Documents/FastSlice-build /home/nathan/Documents/FastSlice-build/TandS /home/nathan/Documents/FastSlice-build/TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TandS/CMakeFiles/CompileTraceAndSelectPythonFiles.dir/depend
 

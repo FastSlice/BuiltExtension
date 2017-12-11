@@ -1,4 +1,4 @@
-# Install script for directory: /home/nathan/Documents/WandEffect/TandS
+# Install script for directory: /home/nathan/Documents/FastSlice/TandS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,12 +33,12 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "RuntimeLibraries")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib/Slicer-4.7/qt-scripted-modules" TYPE DIRECTORY FILES "/home/nathan/Documents/WandEffect-build/lib/Slicer-4.7/qt-scripted-modules/" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib/Slicer-4.7/qt-scripted-modules" TYPE DIRECTORY FILES "/home/nathan/Documents/FastSlice-build/lib/Slicer-4.7/qt-scripted-modules/" USE_SOURCE_PERMISSIONS)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nathan/Documents/WandEffect-build/TandS/Testing/cmake_install.cmake")
+  include("/home/nathan/Documents/FastSlice-build/TandS/Testing/cmake_install.cmake")
 
 endif()
 

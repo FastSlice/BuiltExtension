@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/Documents/WandEffect
+CMAKE_SOURCE_DIR = /home/nathan/Documents/FastSlice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/Documents/WandEffect-build
+CMAKE_BINARY_DIR = /home/nathan/Documents/FastSlice-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/nathan/Documents/WandEffect-build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/nathan/Documents/FastSlice-build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/nathan/Documents/WandEffect-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nathan/Documents/WandEffect-build/CPackSourceConfig.cmake
+	cd /home/nathan/Documents/FastSlice-build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nathan/Documents/FastSlice-build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nathan/Documents/WandEffect-build/CMakeFiles /home/nathan/Documents/WandEffect-build/TandS/Testing/CMakeFiles/progress.marks
-	cd /home/nathan/Documents/WandEffect-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathan/Documents/WandEffect-build/CMakeFiles 0
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nathan/Documents/FastSlice-build/CMakeFiles /home/nathan/Documents/FastSlice-build/TandS/Testing/CMakeFiles/progress.marks
+	cd /home/nathan/Documents/FastSlice-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathan/Documents/FastSlice-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nathan/Documents/WandEffect-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/clean
+	cd /home/nathan/Documents/FastSlice-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,17 +174,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nathan/Documents/WandEffect-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/preinstall
+	cd /home/nathan/Documents/FastSlice-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nathan/Documents/WandEffect-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/preinstall
+	cd /home/nathan/Documents/FastSlice-build && $(MAKE) -f CMakeFiles/Makefile2 TandS/Testing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -213,6 +213,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

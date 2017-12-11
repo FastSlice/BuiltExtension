@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/Documents/WandEffect
+CMAKE_SOURCE_DIR = /home/nathan/Documents/FastSlice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/Documents/WandEffect-build
+CMAKE_BINARY_DIR = /home/nathan/Documents/FastSlice-build
 
 # Utility rule file for CopyTraceAndSelectPythonScriptFiles.
 
@@ -56,9 +56,9 @@ include TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/progress.make
 TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles: lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py
 
 
-lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py: /home/nathan/Documents/WandEffect/TandS/TraceAndSelect.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/WandEffect-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying python Script: TraceAndSelect.py"
-	cd /home/nathan/Documents/WandEffect-build/TandS && /usr/bin/cmake -E copy /home/nathan/Documents/WandEffect/TandS/TraceAndSelect.py /home/nathan/Documents/WandEffect-build/lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py
+lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py: /home/nathan/Documents/FastSlice/TandS/TraceAndSelect.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nathan/Documents/FastSlice-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying python Script: TraceAndSelect.py"
+	cd /home/nathan/Documents/FastSlice-build/TandS && /usr/bin/cmake -E copy /home/nathan/Documents/FastSlice/TandS/TraceAndSelect.py /home/nathan/Documents/FastSlice-build/lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py
 
 CopyTraceAndSelectPythonScriptFiles: TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles
 CopyTraceAndSelectPythonScriptFiles: lib/Slicer-4.7/qt-scripted-modules/TraceAndSelect.py
@@ -72,10 +72,10 @@ TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/build: CopyTraceAndSele
 .PHONY : TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/build
 
 TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/clean:
-	cd /home/nathan/Documents/WandEffect-build/TandS && $(CMAKE_COMMAND) -P CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/cmake_clean.cmake
+	cd /home/nathan/Documents/FastSlice-build/TandS && $(CMAKE_COMMAND) -P CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/cmake_clean.cmake
 .PHONY : TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/clean
 
 TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/depend:
-	cd /home/nathan/Documents/WandEffect-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/WandEffect /home/nathan/Documents/WandEffect/TandS /home/nathan/Documents/WandEffect-build /home/nathan/Documents/WandEffect-build/TandS /home/nathan/Documents/WandEffect-build/TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nathan/Documents/FastSlice-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/Documents/FastSlice /home/nathan/Documents/FastSlice/TandS /home/nathan/Documents/FastSlice-build /home/nathan/Documents/FastSlice-build/TandS /home/nathan/Documents/FastSlice-build/TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TandS/CMakeFiles/CopyTraceAndSelectPythonScriptFiles.dir/depend
 

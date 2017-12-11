@@ -1,4 +1,4 @@
-# Install script for directory: /home/nathan/Documents/WandEffect
+# Install script for directory: /home/nathan/Documents/FastSlice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,12 +33,12 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "RuntimeLibraries")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./share/Slicer-4.7" TYPE FILE FILES "/home/nathan/Documents/WandEffect-build/FastSlice.s4ext")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./share/Slicer-4.7" TYPE FILE FILES "/home/nathan/Documents/FastSlice-build/FastSlice.s4ext")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nathan/Documents/WandEffect-build/TandS/cmake_install.cmake")
+  include("/home/nathan/Documents/FastSlice-build/TandS/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nathan/Documents/WandEffect-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nathan/Documents/FastSlice-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

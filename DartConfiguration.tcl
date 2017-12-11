@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/nathan/Documents/WandEffect
-BuildDirectory: /home/nathan/Documents/WandEffect-build
+SourceDirectory: /home/nathan/Documents/FastSlice
+BuildDirectory: /home/nathan/Documents/FastSlice-build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/nathan/Documents/WandEffect"
+ConfigureCommand: "/usr/bin/cmake" "/home/nathan/Documents/FastSlice"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

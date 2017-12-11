@@ -6,8 +6,8 @@
 
 # This is source code manager (i.e. svn)
 scm git
-scmurl https://github.com/FastSlice/WandEffect
-scmrevision b878efa
+scmurl https://github.com/FastSlice/FastSlice
+scmrevision 4b9fd77
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
